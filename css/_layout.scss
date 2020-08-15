@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'oxxo';
+    src: url('../font/jf-openhuninn-1.1.ttf');
+}
+body{
+    background: #000000;
+    font-family: oxxo, arial,sans-serif;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+.gameQuiz{
+    height: 100vh;
+    background: #000000;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    img{
+        width: 200px;
+        margin-bottom: 20px;
+    }
+}
+.Quiz{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Quiz, .Quiz-Start{
+    position: absolute;
+    margin-bottom: 30px;
+}
+.Quiz-Start{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Qus-Panel{
+    background: #181e24;
+    height: 240px;
+    width: 100%;
+    color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 30px;
+    h2{
+        font-size: 2.5rem;
+        span{
+            font-size: 2rem;
+        }
+    }
+    h3{
+        font-size: 1.2rem;
+    }
+    
+}
+.Ans-Panel{
+    width: 95%;
+    a{
+        display: block;
+        padding: 10px;
+        margin: 20px 0;
+    }
+    .btn-primary{
+        margin: 0 auto;
+        width: 50%;
+    }
+}
+

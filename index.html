@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/all.css">
+    <title>填答表單</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row gameQuiz">
+            <div class="Quiz-Start col-12 col-md-4">
+                <img src="img/js.svg" alt="">
+                <p class="text-center text-white">
+                    記住，你沒有選擇錯誤的餘地<br>謹慎小心的作答!
+                </p>
+                <a href="#" class="btn btn-outline-light">開始測驗</a>
+            </div>
+            <div class="Quiz col-12 col-md-4">
+                <div class="Qus-Panel">
+                    <div>
+                        <h2>Q<span>1</span></h2>
+                        <h3>
+                            先來驗證個身分，說出你的暗號
+                        </h3>
+                    </div>
+                </div>
+                <div class="Ans-Panel">
+                    <a href="#" class="btn btn-outline-light select-Btn" data-ans='0'>lily</a>
+                    <a href="#" class="btn btn-outline-light select-Btn" data-ans='0'>violate</a>
+                    <a href="#" class="btn btn-outline-light select-Btn" data-ans='1'>Saffron</a>
+                    <a href="#" class="btn btn-outline-light select-Btn" data-ans='0'>Marigold</a>
+                    <a href="#" class="btn btn-primary confirm-Btn" >確定送出</a>
+                </div>
+            </div>
+            <div class="Quiz col-12 col-md-4">
+                <div class="Qus-Panel">
+                    <div>
+                        <h2>Q<span>2</span></h2>
+                        <h3>
+                            測試一下你的情蒐能力是否成熟，以下何者的資訊是可信的？
+                        </h3>
+                    </div>
+                </div>
+                <div class="Ans-Panel">
+                    <a href="#" class="btn btn-outline-light select-Btn" data-ans='1'>正確</a>
+                    <a href="#" class="btn btn-outline-light select-Btn" data-ans='0'>錯誤</a>
+                    <a href="#" class="btn btn-outline-light select-Btn" data-ans='0'>錯誤</a>
+                    <a href="#" class="btn btn-outline-light select-Btn" data-ans='0'>錯誤</a>
+                    <a href="#" class="btn btn-primary confirm-Btn">確定送出</a>
+                </div>
+            </div>
+            <div class="Quiz col-12 col-md-4" id="End">
+                <div class="Qus-Panel">
+                    <div>
+                        <h2>成功</h2>
+                        <a href="#" class="btn btn-primary">重新開始</a>
+                    </div>
+                </div>
+            </div>
+            <div class="Quiz col-12 col-md-4" id="Lose">
+                <div class="Qus-Panel">
+                    <div>
+                        <h2>失敗</h2>
+                        <a href="#" class="btn btn-primary">重新開始</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- js 不是用 bootstrap 官網的 -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>  
+    <!-- 自己 JS -->
+    <script src="js/all.js"></script>
+</body>
+</html>

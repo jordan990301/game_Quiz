@@ -1,0 +1,121 @@
+@font-face {
+  font-family: 'oxxo';
+  src: url("../font/jf-openhuninn-1.1.ttf");
+}
+
+body {
+  background: #000000;
+  font-family: oxxo, arial,sans-serif;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.gameQuiz {
+  height: 100vh;
+  background: #000000;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.gameQuiz img {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.Quiz {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Quiz, .Quiz-Start {
+  position: absolute;
+  margin-bottom: 30px;
+}
+
+.Quiz-Start {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Qus-Panel {
+  background: #181e24;
+  height: 240px;
+  width: 100%;
+  color: white;
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0 30px;
+}
+
+.Qus-Panel h2 {
+  font-size: 2.5rem;
+}
+
+.Qus-Panel h2 span {
+  font-size: 2rem;
+}
+
+.Qus-Panel h3 {
+  font-size: 1.2rem;
+}
+
+.Ans-Panel {
+  width: 95%;
+}
+
+.Ans-Panel a {
+  display: block;
+  padding: 10px;
+  margin: 20px 0;
+}
+
+.Ans-Panel .btn-primary {
+  margin: 0 auto;
+  width: 50%;
+}
+/*# sourceMappingURL=all.css.map */
